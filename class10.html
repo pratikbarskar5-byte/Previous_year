@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=divice-width,initial-scale=1.0">
+<title>Class 10 Years</title>
+<style>
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+/* Buttons parent group */
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Common button style */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    min-width: 120px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Year button colors */
+.year2024 { background-color: #0074D9; }
+.year2023 { background-color: #FF851B; }
+.year2022 { background-color: #2ECC40; }
+.year2021 { background-color: #B10DC9; }
+.year2020 { background-color: #FF4136; }
+
+/* Home button style */
+.homebtn {
+    background-color: #111234
+    ;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+/* Responsive Design - For mobile */
+@media screen and (max-width: 600px) {
+    .button-group {
+        flex-direction: column;
+        gap: 15px
+    }
+
+    button {
+        width: 65%;
+        padding: 15px 0;
+        font-size: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+<h2> TOPPER ZONE - 10th papers!</h2>
+
+<p style="font-size:18px; margin-top:20px;">Click here to download papers:</p>
+
+<h1>Class 10 - Last 5 Years Papers</h1>
+
+<div class="button-group">
+    <p>click hear to download  <b>"2024 papers"</b></p>
+    <button class="year2024" onclick="location.href='/10th/2024_10.html'">2024 papers</button>
+    <p>click hear to download  <b>"2023 papers"</b>.</p>
+    <button class="year2023" onclick="location.href='/10th/2023_10.html'">2023 papers</button>
+    <p>click hear to download  <b>"2022 papers"</b></p>
+    <button class="year2022" onclick="location.href='/10th/2022_10.html'">2022 papers</button>
+    <p>click hear to download  <b>"2021 papers"</b></p>
+    <button class="year2021" onclick="location.href='/10th/2021_10.html'">2021 papers</button>
+    <p>click hear to download  <b>"2020 papers"</b></p>
+    <button class="year2020" onclick="location.href='/10th/2020_10.html'">2020 papers</button>
+    <p>click hear to go about section  <b>"ABOUT"</b>.</p>
+    <a href="about.html" class="button">About</a>
+</div>
+
+
+<button class="homebtn" onclick="location.href='index.html'">Back to Home</button>
+
+</body>
+</html>

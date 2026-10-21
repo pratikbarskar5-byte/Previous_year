@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 20;
+    padding: 20;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #004080;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #004080;
+    padding: 10px;
+    position: relative;
+    z-index: 999;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: #004080;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links.active {
+    display: block;
+}
+
+.nav-links li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #ffffff33;
+}
+
+.nav-links li a:hover {
+    background-color: #005bb5;
+}
+
+/* Show links directly on desktop */
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
+    }
+
+    .nav-links li a {
+        border: none;
+        padding: 10px 15px;
+    }
+}
+/* nav a:hover {
+    color: yellow;
+} */
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #0044cc;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #3399ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #0066cc;
+}
+
+.year {
+    background-color: #3399ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.subject-links a {
+    display: block;
+    margin: 5px;
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.subject-links a:hover {
+    color: red;
+}
+
+.footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.deco{
+    border: 2px solid rgb(119, 119, 170) ;
+    box-shadow: 5px 5px 5px 5px rgb(121, 184, 209);
+}
+
+.topper{
+    
+    box-shadow: 2px 2px 2px 2px rgba(32, 34, 34, 0.76);
+}
